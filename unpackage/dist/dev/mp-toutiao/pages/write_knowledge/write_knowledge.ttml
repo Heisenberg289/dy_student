@@ -1,0 +1,1 @@
+<view class="content"><block tt:for="{{info_list}}" tt:for-item="item" tt:for-index="index" tt:key="index"><view data-event-opts="{{[['tap',[['toDetail',['$0'],[[['info_list','',index,'link_url']]]]]]]}}" class="item_list" bindtap="__e"><view class="title">{{item.name}}</view><image class="item_list_img" src="{{item.img_url}}"></image></view></block></view>

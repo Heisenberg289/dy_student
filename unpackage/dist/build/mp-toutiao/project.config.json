@@ -1,0 +1,9 @@
+{
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "appid": "ttf6a2801f6988d0ba",
+  "projectname": "dy_student"
+}

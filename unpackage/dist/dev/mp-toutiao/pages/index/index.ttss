@@ -1,0 +1,155 @@
+
+.content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding-bottom: 140rpx;
+	background-color: #ffffff;
+}
+image {
+	display: block;
+}
+button::after {
+	display: none;
+}
+button::before {
+	display: none;
+}
+/* 免费领取 */
+.form-phone {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 750rpx;
+	padding: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.form-phone .phone {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 670rpx;
+	height: 120rpx;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 20rpx;
+	border: 2px solid rgba(185, 197, 223, 1);
+	padding: 0 30rpx;
+	margin-bottom: 20rpx;
+	font-size: 32rpx;
+	font-weight: 400;
+	color: rgba(131, 147, 181, 1);
+}
+.form-phone .get-btn {
+	border: none;
+	width: 670rpx;
+	height: 120rpx;
+	font-size: 48rpx;
+	font-weight: 600;
+	color: #ffffff;
+	background: -webkit-gradient(linear, left top, right top, from(rgba(255, 111, 51, 1)), to(rgba(255, 75, 0, 1)));
+	background: -o-linear-gradient(left, rgba(255, 111, 51, 1) 0%, rgba(255, 75, 0, 1) 100%);
+	background: linear-gradient(90deg, rgba(255, 111, 51, 1) 0%, rgba(255, 75, 0, 1) 100%);
+	border-radius: 20rpx;
+	margin: 0 auto 20rpx;
+}
+.form-phone .text {
+	font-size: 30rpx;
+	font-family: SourceHanSansCN-Normal;
+	font-weight: 400;
+	color: rgba(131, 147, 181, 1);
+}
+/* 滚动 */
+.swiper {
+	width: 750rpx;
+	height: 100rpx;
+	margin: 40rpx auto;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 245, 204, 1)), to(rgba(254, 245, 204, 1)));
+	background: -o-linear-gradient(top, rgba(254, 245, 204, 1) 0%, rgba(254, 245, 204, 1) 100%);
+	background: linear-gradient(180deg, rgba(254, 245, 204, 1) 0%, rgba(254, 245, 204, 1) 100%);
+}
+.swiper-item {
+	width: 750rpx;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.swiper-item .img {
+	width: 38rpx;
+	height: 46rpx;
+}
+.swiper-item .text {
+	display: block;
+	line-height: 100rpx;
+	font-size: 32rpx;
+	font-weight: 400;
+	color: rgba(48, 48, 48, 1);
+	margin-left: 40rpx;
+}
+.get-btn02 {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 750rpx;
+	height: 120rpx;
+	line-height: 120rpx;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	font-size: 48rpx;
+	background-color: #ff5108;
+	z-index: 9;
+	border-radius: 0;
+}
+.pop-box {
+	position: fixed;
+	width: 750rpx;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.pop-img {
+	width: 670rpx;
+	height: 780rpx;
+	margin: 180rpx auto 0;
+}
+

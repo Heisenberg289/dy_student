@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "熊猫师父教写字"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "熊猫师父教写字"
+			}
+		},{
+			"path": "pages/child_videolist/child_videolist",
+			"style": {
+				"navigationBarTitleText": "宝贝视频秀",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 0
+			}
+		}, {
+			"path": "pages/strify/strify",
+			"style": {
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/write_knowledge/write_knowledge",
+			"style": {
+				"navigationBarTitleText": "练字小知识"
+			}
+		}, {
+			"path": "pages/knowledge_detail/knowledge_detail",
+			"style": {
+				"navigationBarTitleText": "练字小知识"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}
